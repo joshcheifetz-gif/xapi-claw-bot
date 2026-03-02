@@ -1,0 +1,14 @@
+{
+  "name": "xapi-claw-bot",
+  "version": "1.0.0",
+  "description": "A monitoring bot that connects to an xAPI LRS and alerts on custom statement events",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
